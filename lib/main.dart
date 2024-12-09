@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/flutter_sample.dart';
 import 'package:flutter_application_1/my_gird_page.dart';
+import 'package:flutter_application_1/my_listveiw.dart';
 //import 'package:flutter_application_1/my_contrainer.dart';
 //import 'package:flutter_application_1/my_scroll.dart';
 
@@ -16,7 +17,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'My Flutter Simple',
-      home: MyGirdPage()
+      home: MyListViewPage()
     );
   }
 }
